@@ -1,0 +1,18 @@
+{
+  "name": "hello-mern",
+  "version": "1.0.0",
+  "description": "my first mern app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js", 
+    "server": "nodemon backend/server.js"
+  },
+  "author": "takipipo",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.1"
+  }
+}
